@@ -16,3 +16,5 @@ vagrant-berkshelf (4.1.0)
 vagrant-omnibus (1.4.1)
 vagrant-share (1.1.5, system)
 vagrant-vbguest (0.12.0)
+
+## There is a simple test script (test.sh) with hardcoded IPs and Ports to check the roles of each node in the cluster, simulate a failure, and re-check the roles to verify one of the slave nodes has been promoted to master.
